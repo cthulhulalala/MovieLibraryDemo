@@ -4,8 +4,6 @@ import React from "react";
 import {
     MovieCardContainer,
     BackgroundImage1,
-    BackgroundImage2,
-    BackgroundImage3,
 } from "./MovieCardElements";
 
 const MovieCard = () => {
@@ -14,12 +12,7 @@ const MovieCard = () => {
             <MovieCardContainer>
                 <BackgroundImage1 />
             </MovieCardContainer>
-            <MovieCardContainer>
-                <BackgroundImage2 />
-            </MovieCardContainer>
-            <MovieCardContainer>
-                <BackgroundImage3 />
-            </MovieCardContainer>
+          
         </>
     );
 };

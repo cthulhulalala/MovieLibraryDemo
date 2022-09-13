@@ -14,31 +14,10 @@ export const MovieCardContainer = styled.div`
 `;
 
 export const BackgroundImage1 = styled.div`
-
-
     //* shadow type 1
 
     height: 100%;
     background: linear-gradient(to bottom, #ffffff00 50%, #000000 85%),
         url(${Image}) no-repeat center;
     background-size: cover;
-`;
-export const BackgroundImage2 = styled.div`
-    //* shadow type 2
-
-    height: 100%;
-    background: linear-gradient(to bottom, #ffffff00 80%, #00000099 80%),  
-        url(${Image}) no-repeat center;
-    background-size: cover;
-
-
-`;
-export const BackgroundImage3 = styled.div`
-    //* shadow type 3
-
-    height: 100%;
-    background: linear-gradient(to bottom, #ffffff00 80%, #000000 80%),  
-        url(${Image}) no-repeat center;
-    background-size: cover;
-
 `;
